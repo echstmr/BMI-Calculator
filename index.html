@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <div class="weight-wrapper dflex">
+            <label for="weight">Enter Your Weight:</label>
+        <input type="number" id="weight" placeholder="Enter weight (e.g., 60 or 132)">
+        <select id="weight-unit">
+            <option value="kg">kg</option>
+            <option value="lbs">lbs</option>
+        </select>
+        </div>
+        
+        <div class="height-wrapper dflex">
+            <label for="height-ft">Enter Your Height:</label>
+            <input type="number" id="height-ft" placeholder="Feet (e.g., 5)">
+            <input type="number" id="height-in" placeholder="Inches (e.g., 7)">
+        </div>
+        
+        <div class="calculate-btn dflex">
+            <button id="submit">Calculate BMI</button>
+        </div>
+     
+        <p>Result:</p>
+        <p id="result"></p>
+        
+    </div>
+
+
+    <script src="./app.js"></script>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
